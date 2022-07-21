@@ -1,0 +1,9 @@
+{
+	"name": "adf-demo-test-evandit",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e633c96e-7d51-46e3-a981-efc9d12bc012",
+		"tenantId": "af681480-6bcd-40ac-b10c-31b2cfc86df9"
+	}
+}
