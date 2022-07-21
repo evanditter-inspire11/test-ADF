@@ -1,0 +1,16 @@
+{
+	"name": "onpremsql",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=False;data source=\" onpremsqlserver.westus3.cloudapp.azure.com\";initial catalog=DemoDatabase;user id=evanditter",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI0Yzc5NDVkYi1lZmIwLTQ5NTEtOTdkNC04YmRiMjBmOGZjZDkiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "test-sql-integrationruntime",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
